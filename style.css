@@ -8,7 +8,6 @@ body {
     background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
 }
 
-
 *,*:before,*:after{
     box-sizing: border-box;
 }
@@ -21,34 +20,24 @@ p {
     font-size: 19px;
 }
 
-
 .bgline {
     height: 55px;
     background-color: #3e3936;
     background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
 }
 
-
-/*  ====Container====  */
-
 .container {
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
-
 }
 
 .container2 {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
-
     padding-bottom: 110px;
-
-
 }
-
-/*  ====Header====  */
 
 .header {
     width: 100%;
@@ -70,7 +59,6 @@ p {
 .header.fixed .header__inner {
     padding-bottom: 10px;
     padding-top: 10px;
-
     border-bottom: 0;
 }
 
@@ -81,8 +69,6 @@ p {
     padding: 30px 0;
     border-bottom: 1px solid #3c1414;
 }
-
-/*  ====Nav====  */
 
 .nav {
     display: flex;
@@ -96,7 +82,6 @@ p {
     color: #f5ece6;
     text-decoration: none;
     opacity: 0.75;
-
     transition: opacity 0.1s linear;
 }
 
@@ -107,8 +92,6 @@ p {
 .nav__link:hover {
     opacity: 1;
 }
-
-/*  ====Intro====  */
 
 .intro {
     display: flex;
@@ -125,14 +108,12 @@ p {
     width: 100%;
     max-width: 700px;
     margin: 0 auto;
-
     text-align: center;
     font-family: 'Caveat', cursive;
 }
 
 .intro__title {
     margin: 0 0 30px;
-
     font-size: 65px;
     line-height: 1.1;
     color:#f5ece6;
@@ -148,26 +129,20 @@ p {
     font-weight: 400;
 }
 
-/*  ====Button====  */
-
 .btn {
     font-family: 'Zen Maru Gothic', sans-serif;
     display: inline-block;
     vertical-align: top;
-
     border-radius: 30px;
     border: 0;
     cursor: pointer;
-
     font-size: 20px;
     color: #f5ece6;
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
     padding: 14px 40px;
-
     transition: background 0.15s linear;
-    
     background-color: #641e28;
 }
 
@@ -195,8 +170,6 @@ p {
     background-color: #52151d;
 }
 
-/*====Profile====*/
-
 .profile {
     display: flex;
     padding-bottom: 170px;
@@ -214,8 +187,6 @@ p {
     padding: 0 15px;
     text-align: center;
     margin: auto;
-
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -223,25 +194,18 @@ p {
 
 .profile__icon {
     width: 300px;
-
     margin-bottom: 20px;
     margin-top: 20px;
     filter: drop-shadow(0 0 25px #7b5454);
-
-
     position:relative;
     left: 50%;
     z-index: 6;
-
     width: auto;
-
     transform: translate3d(-50%,0,0);
-
 }
 
 .profile__title {
     padding: 14px 0 7px 0;
-
     font-size: 17px;
     color: #1a1527;
     font-weight: 700;
@@ -274,28 +238,15 @@ p {
     text-align: center;
     font-family: 'Caveat', cursive;
     border-bottom: 1px solid #3c1414;
-
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
-
 }
-
-
-
-
-
-
-
-
-/*====Footer====*/
 
 .footer {
     padding: 35px 0;
-
     background-color: #3e3936;
     background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
-
     position: relative;
 }
 
@@ -306,15 +257,12 @@ p {
 
 .footer__block {
     width: 33.333333%;
-
     text-align: center;
 }
-
 
 .footer__center .footer__icon:hover {
     opacity: 1;
 }
-
 
 .footer__title {
     font-size: 16px;
@@ -332,7 +280,6 @@ p {
 
 .footer__center {
     margin: 15px 0;
-
 }
 
 .footer__icon {
@@ -353,8 +300,6 @@ p {
     transition: opacity 0.2s linear;
 }
 
-
-/*Burger*/
 .burger {
     padding: 15px 2px;
     display: none;
@@ -389,48 +334,31 @@ p {
 .burger__item:after{
     bottom: -8px;
 }
-/*====Media====*/
 @media(max-width:1200px){
-    /*Nav*/
     .nav {
         display: none;
         width: 100%;
         flex-direction: column;
         text-align: right;
-
         position: absolute;
         top: 100%;
         right: 0;
     }
-
     .nav.show {
         display: flex;
     }
-
     .nav__link {
         padding: 9px 15px;
         background-color: #3e3936;
         background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
         opacity: 0.86;
     }
-    /*Burger*/
     .burger {
         display: block;
     }
-    /*Intro*/
-    .intro__title {
-
-    }
-    /*Profile*/
-    /*Instphoto*/
-    /*Project*/
-    /*Program*/
-    /*Footer*/
-
 }
 
 @media(max-width:640px){
-    /*Intro*/
     .intro {
         height: auto;
         padding-top: 170px;
@@ -443,7 +371,6 @@ p {
         font-size: 30px;
         margin-bottom: 30px;
     }
-    /*Profile*/
     .profile {
         display: flex;
         flex-wrap: wrap;
@@ -457,28 +384,12 @@ p {
     .profile__icon{
         width: 300px;
     }
-    /*Instphoto*/
-    .instp__item {
-        width: 100%;
-    }
-    /*Project*/
-    .proj__item {
-        width: 100%;
-    }
-    /*Program*/
-    .prog__item {
-        width: 100%;
-    }
-    /*Footer*/
     .footer__block {
         width: 100%;
     }
 }
 
 @media(max-height:700px) {
-    /*Nav*/
-    /*Intro*/
-    /*Profile*/
     .profile {
         padding-top: 30px;
         max-width: 1000px;
@@ -497,8 +408,6 @@ p {
     .profile__item {
         padding: 0 5px;
     }
-
-    /*Footer*/
 }
 
 
